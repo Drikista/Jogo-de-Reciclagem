@@ -7,15 +7,28 @@ public class LixoColetavel : MonoBehaviour
 
     private void Update()
     {
-        if (jogadorNaArea && Input.GetKeyDown(KeyCode.Z) && playerScript != null)
+        if (jogadorNaArea && Input.GetKeyDown(KeyCode.Z))
         {
-            TentarColetar();
+            if (playerScript != null)
+            {
+                TentarColetar();
+            }
+            else
+            {
+                Debug.LogError("ERRO: Você apertou Z, mas o script 'PlayerMovement2D' não foi encontrado no Player!");
+            }
         }
     }
 
     private void TentarColetar()
     {
         string minhaTag = gameObject.tag;
+
+        if (minhaTag == "Untagged")
+        {
+            Debug.LogWarning($"ATENÇÃO: O lixo '{gameObject.name}' está sem Tag! Defina a Tag como 'lixo organico' ou 'lixo nao organico' no Inspector.");
+            return;
+        }
 
         if (playerScript.PodeColetar(minhaTag)) // Chama método no PlayerMovement2D
         {
@@ -36,6 +49,10 @@ public class LixoColetavel : MonoBehaviour
             jogadorNaArea = true;
             // Busca o script PlayerMovement2D no objeto do Player
             playerScript = collision.GetComponent<PlayerMovement2D>();
+            if (playerScript == null)
+            {
+                Debug.LogError("ERRO CRÍTICO: O objeto colidido tem a tag 'Player', mas não tem o componente 'PlayerMovement2D' anexado! Verifique o Inspector do Player.");
+            }
         }
     }
 

@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine;
 using TMPro; // Importante para usar TextMeshPro. Se usar Texto Legacy, mude para UnityEngine.UI
 
 [RequireComponent(typeof(Rigidbody2D))]
