@@ -6,6 +6,8 @@ TagManager:
   tags:
   - LixoReciclavelTag
   - LixoOrganicoTag
+  - LataLixoReciclavel
+  - LataLixoOrganico
   layers:
   - Default
   - TransparentFX
