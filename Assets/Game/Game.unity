@@ -1236,7 +1236,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 400250456264424662, guid: b6119cfe573aa404280d30057a9e6d3e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1297,6 +1298,10 @@ PrefabInstance:
       propertyPath: textoReciclavel
       value: 
       objectReference: {fileID: 288792472}
+    - target: {fileID: 5744147975779170754, guid: 312033840a7ccfe4fb760ceac195f72b, type: 3}
+      propertyPath: _player_vel
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7847549912677670386, guid: 312033840a7ccfe4fb760ceac195f72b, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1305,28 +1310,8 @@ PrefabInstance:
     - {fileID: 1556077560142509603, guid: 312033840a7ccfe4fb760ceac195f72b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7847549912677670386, guid: 312033840a7ccfe4fb760ceac195f72b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6373129583592945683}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 312033840a7ccfe4fb760ceac195f72b, type: 3}
---- !u!1 &6373129583592945682 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7847549912677670386, guid: 312033840a7ccfe4fb760ceac195f72b, type: 3}
-  m_PrefabInstance: {fileID: 6373129583592945681}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &6373129583592945683
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6373129583592945682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49df1fc53966a6e42b931b469e3cddb0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Player_control
 --- !u!1001 &7174079888373711767
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1379,7 +1364,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: organico
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6044772670186278644, guid: 191f4ff6f927e684ab66ecea0021f2b0, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
