@@ -4,8 +4,8 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - lixo organico
-  - lixo nao organico
+  - LixoReciclavelTag
+  - LixoOrganicoTag
   layers:
   - Default
   - TransparentFX
