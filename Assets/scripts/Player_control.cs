@@ -16,8 +16,8 @@ public class Player_control : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _playerDirection = Vector2(input.GetAxisRaw("Horizontal"), input.GetAxisRaw("Vertical"));
-        _playerDirection.normalized;
+        _playerDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        
     }
 
     void FixedUpdate()
