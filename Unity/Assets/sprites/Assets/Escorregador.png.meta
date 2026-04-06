@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4073ff1cd8f04354aa5d5df46447291e
+guid: 928387c1564e2f24ebb52bf990802379
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 83349837710696102
-    second: Food_Trucks_0
+      213: -8874555898923915930
+    second: Escorregador_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,17 +46,17 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 770, y: 0, z: 409, w: 557}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: 0
+  spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -113,47 +113,74 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Food_Trucks_0
+      name: Escorregador_0
       rect:
         serializedVersion: 2
-        x: 839
-        y: 67
-        width: 593
-        height: 421
+        x: 1270
+        y: 607
+        width: 403
+        height: 422
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: -141.5, y: -211}
+        - {x: -57.5, y: -200}
+        - {x: -9.5, y: -172}
+        - {x: 38.5, y: -110}
+        - {x: 33.5, y: -191}
+        - {x: 48.5, y: -191}
+        - {x: 55.5, y: -88}
+        - {x: 101.5, y: 21}
+        - {x: 102.5, y: -126}
+        - {x: 123.5, y: -129}
+        - {x: 125.176636, y: -92.285034}
+        - {x: 154.5, y: -104}
+        - {x: 150.5, y: -158}
+        - {x: 174.5, y: -165}
+        - {x: 193.5, y: 111}
+        - {x: 193.5, y: 131}
+        - {x: 153.5, y: 136}
+        - {x: 117.5, y: 156}
+        - {x: 105.5, y: 181}
+        - {x: 48.5, y: 159}
+        - {x: -11.5, y: 98}
+        - {x: -70.5, y: -13}
+        - {x: -97.5, y: -54}
+        - {x: -135.5, y: -67}
+        - {x: -184.5, y: -91}
+        - {x: -201.5, y: -127}
+      - - {x: 125.5, y: -73}
+        - {x: 157.5, y: -90}
+        - {x: 156.5, y: -55}
+        - {x: 126.5, y: -39}
+      - - {x: 128.5, y: -25}
+        - {x: 158.5, y: -39}
+        - {x: 160.5, y: 9}
+        - {x: 128.5, y: 23}
+      - - {x: 132.5, y: 35}
+        - {x: 159.5, y: 21}
+        - {x: 163.5, y: 67}
+        - {x: 136.5, y: 81}
+      - - {x: 147.5, y: 96}
+        - {x: 164.5, y: 83}
+        - {x: 169.5, y: 105}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6ae15dc5c3e182100800000000000000
-      internalID: 83349837710696102
+      spriteID: 665ea49ed6e37d480800000000000000
+      internalID: -8874555898923915930
       vertices: []
       indices: 
       edges: []
       weights: []
-    outline:
-    - - {x: -84, y: -122}
-      - {x: -117, y: -178}
-      - {x: -99, y: -185}
-      - {x: -112, y: -442}
-      - {x: -33, y: -460}
-      - {x: 9, y: -447}
-      - {x: 205, y: -452}
-      - {x: 259, y: -468}
-      - {x: 354, y: -446}
-      - {x: 435, y: -374}
-      - {x: 451, y: -78}
-      - {x: 468, y: -77}
-      - {x: 467, y: -56}
-      - {x: -19, y: -66}
+    outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    spriteID: e667a51b6d715ec4aaa57657f52e151d
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -162,7 +189,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Food_Trucks_0: 83349837710696102
+      Escorregador_0: -8874555898923915930
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4073ff1cd8f04354aa5d5df46447291e
+guid: b22faa4afb069744e90a9455caff862b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 83349837710696102
-    second: Food_Trucks_0
+      213: 6187728429963919738
+    second: Lago sem sombras_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,17 +46,17 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 770, y: 0, z: 409, w: 557}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: 0
+  spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -113,47 +113,33 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Food_Trucks_0
+      name: Lago sem sombras_0
       rect:
         serializedVersion: 2
-        x: 839
-        y: 67
-        width: 593
-        height: 421
+        x: 341
+        y: 272
+        width: 1192
+        height: 664
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ae15dc5c3e182100800000000000000
-      internalID: 83349837710696102
+      spriteID: a71c59a193a3fd550800000000000000
+      internalID: 6187728429963919738
       vertices: []
       indices: 
       edges: []
       weights: []
-    outline:
-    - - {x: -84, y: -122}
-      - {x: -117, y: -178}
-      - {x: -99, y: -185}
-      - {x: -112, y: -442}
-      - {x: -33, y: -460}
-      - {x: 9, y: -447}
-      - {x: 205, y: -452}
-      - {x: 259, y: -468}
-      - {x: 354, y: -446}
-      - {x: 435, y: -374}
-      - {x: 451, y: -78}
-      - {x: 468, y: -77}
-      - {x: 467, y: -56}
-      - {x: -19, y: -66}
+    outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    spriteID: 
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -162,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Food_Trucks_0: 83349837710696102
+      Lago sem sombras_0: 6187728429963919738
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

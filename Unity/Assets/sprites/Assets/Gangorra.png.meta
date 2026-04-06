@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 81e87bf01b5453c40b3408761242f217
+guid: 4142e0548e1681b46b6a1432df4686ce
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3951391967813870560
-    second: Gangorra_0
+      213: -7843097668196307190
+    second: Gangorra 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,17 +46,17 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 1015, y: 0, z: 0, w: 763}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: 0
+  spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -113,45 +113,49 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gangorra_0
+      name: Gangorra 1_0
       rect:
         serializedVersion: 2
-        x: 1065
-        y: 42
-        width: 561
-        height: 237
+        x: 724
+        y: 386
+        width: 478
+        height: 202
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: -238, y: 56}
+        - {x: -234, y: 30}
+        - {x: -66, y: -22}
+        - {x: -87, y: -32}
+        - {x: -20, y: -56}
+        - {x: -5, y: -48}
+        - {x: 146, y: -101}
+        - {x: 238, y: -58}
+        - {x: 238, y: -39}
+        - {x: 116, y: -2}
+        - {x: 108, y: 36}
+        - {x: 76, y: 19}
+        - {x: -63, y: 66}
+        - {x: -70, y: 97}
+        - {x: -107, y: 82}
+        - {x: -139, y: 92}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 02c5f1ec0f5d929c0800000000000000
-      internalID: -3951391967813870560
+      spriteID: a0fe67ca938b72390800000000000000
+      internalID: -7843097668196307190
       vertices: []
       indices: 
       edges: []
       weights: []
-    outline:
-    - - {x: 113, y: -312}
-      - {x: 113, y: -338}
-      - {x: 558, y: -495}
-      - {x: 667, y: -449}
-      - {x: 663, y: -430}
-      - {x: 519, y: -379}
-      - {x: 514, y: -339}
-      - {x: 468.99927, y: -360.79193}
-      - {x: 307, y: -303}
-      - {x: 302, y: -263}
-      - {x: 254.05542, y: -284.14615}
-      - {x: 220, y: -272}
+    outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    spriteID: c957d02192d66584a942d0ce0d3f8957
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -160,7 +164,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Gangorra_0: -3951391967813870560
+      Gangorra 1_0: -7843097668196307190
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

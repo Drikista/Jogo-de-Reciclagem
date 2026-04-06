@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 4073ff1cd8f04354aa5d5df46447291e
+guid: 7b50758e1e8d19f45b7252e2efdab365
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 83349837710696102
-    second: Food_Trucks_0
+      213: 9132156534651217735
+    second: Pneus_0
+  - first:
+      213: 2744667969195208078
+    second: Pneus_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -52,7 +55,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 770, y: 0, z: 409, w: 557}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Food_Trucks_0
+      name: Pneus_0
       rect:
         serializedVersion: 2
-        x: 839
-        y: 67
-        width: 593
-        height: 421
+        x: 1426
+        y: 105
+        width: 48
+        height: 475
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,27 +131,55 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ae15dc5c3e182100800000000000000
-      internalID: 83349837710696102
+      spriteID: 747e529ebffebbe70800000000000000
+      internalID: 9132156534651217735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pneus_1
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 126
+        width: 265
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8de542e9f4071620800000000000000
+      internalID: 2744667969195208078
       vertices: []
       indices: 
       edges: []
       weights: []
     outline:
-    - - {x: -84, y: -122}
-      - {x: -117, y: -178}
-      - {x: -99, y: -185}
-      - {x: -112, y: -442}
-      - {x: -33, y: -460}
-      - {x: 9, y: -447}
-      - {x: 205, y: -452}
-      - {x: 259, y: -468}
-      - {x: 354, y: -446}
-      - {x: 435, y: -374}
-      - {x: 451, y: -78}
-      - {x: 468, y: -77}
-      - {x: 467, y: -56}
-      - {x: -19, y: -66}
+    - - {x: 519, y: -344}
+      - {x: 540, y: -350}
+      - {x: 572, y: -343}
+      - {x: 569, y: -320}
+      - {x: 615, y: -337}
+      - {x: 613, y: -405}
+      - {x: 635, y: -416}
+      - {x: 667, y: -408}
+      - {x: 671, y: -334}
+      - {x: 701, y: -341}
+      - {x: 754, y: -340}
+      - {x: 756, y: -310}
+      - {x: 771, y: -297}
+      - {x: 774, y: -5}
+      - {x: 660, y: 6}
+      - {x: 541, y: -12}
+    - - {x: 469, y: -432}
+      - {x: 501, y: -432}
+      - {x: 514, y: 24}
+      - {x: 485, y: 25}
     customData: 
     physicsShape: []
     bones: []
@@ -162,7 +193,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Food_Trucks_0: 83349837710696102
+      Pneus_0: 9132156534651217735
+      Pneus_1: 2744667969195208078
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

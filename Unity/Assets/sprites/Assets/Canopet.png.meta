@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 9e769ef475563c047b9ce1f9bb1fee14
+guid: 6caeefa3b9167824a86a3e55cdffc2a9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7926048334159999473
-    second: Lago_0
+      213: -8454664900036092837
+    second: Canopet_0
+  - first:
+      213: 8000067131762708993
+    second: Canopet_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,12 +54,12 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 75
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -113,33 +116,70 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lago_0
+      name: Canopet_0
       rect:
         serializedVersion: 2
-        x: 341
-        y: 272
-        width: 1192
-        height: 664
+        x: 1540
+        y: 616
+        width: 8
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f1fe2647fafefd60800000000000000
-      internalID: 7926048334159999473
+      spriteID: b5c9262711ffaaa80800000000000000
+      internalID: -8454664900036092837
       vertices: []
       indices: 
       edges: []
       weights: []
-    outline: []
+    - serializedVersion: 2
+      name: Canopet_1
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 139
+        width: 490
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1029eff8ba2f50f60800000000000000
+      internalID: 8000067131762708993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: 596, y: -24}
+      - {x: 569, y: 32}
+      - {x: 526, y: 54}
+      - {x: 321, y: -50}
+      - {x: 295, y: -112}
+      - {x: 326, y: -157}
+      - {x: 283, y: -202}
+      - {x: 227, y: -225}
+      - {x: 192, y: -298}
+      - {x: 234, y: -393}
+      - {x: 323, y: -396}
+      - {x: 616, y: -240}
+      - {x: 632, y: -130}
+      - {x: 574, y: -76}
+      - {x: 493, y: -68}
     customData: 
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
@@ -148,7 +188,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Lago_0: 7926048334159999473
+      Canopet_0: -8454664900036092837
+      Canopet_1: 8000067131762708993
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
