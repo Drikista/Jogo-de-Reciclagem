@@ -45,6 +45,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: shadow
+    uniqueID: 2257576867
+    locked: 0
+  - name: "Cen\xE1rio"
+    uniqueID: 2067794093
+    locked: 0
   - name: player
     uniqueID: 1136405095
     locked: 0
