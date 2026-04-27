@@ -30,7 +30,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4972700281185401353}
+  - {fileID: 7531440258591708796}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8578168236786907600
@@ -92,7 +92,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1001 &5484079550953541606
+--- !u!1001 &7033713079514096531
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -102,7 +102,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 655777066961843695, guid: c4eff19b0f3ed824796739df3fe9aa6a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.43
+      value: -1.4
       objectReference: {fileID: 0}
     - target: {fileID: 655777066961843695, guid: c4eff19b0f3ed824796739df3fe9aa6a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -142,16 +142,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3876999679411318990, guid: c4eff19b0f3ed824796739df3fe9aa6a, type: 3}
       propertyPath: m_Name
-      value: "A\u0301rvore alface (4)"
+      value: "sombra A\u0301rvore alface"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 2510107996229782676, guid: c4eff19b0f3ed824796739df3fe9aa6a, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c4eff19b0f3ed824796739df3fe9aa6a, type: 3}
---- !u!4 &4972700281185401353 stripped
+--- !u!4 &7531440258591708796 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 655777066961843695, guid: c4eff19b0f3ed824796739df3fe9aa6a, type: 3}
-  m_PrefabInstance: {fileID: 5484079550953541606}
+  m_PrefabInstance: {fileID: 7033713079514096531}
   m_PrefabAsset: {fileID: 0}
